@@ -1,0 +1,6 @@
+t=(10,4,5,6)
+print("the original tuple is: ",t)
+subset=(5,10)
+print("element to find in tuple: ",subset)
+res=set(subset).issubset(t)
+print("is subset find in tuple? ",res)

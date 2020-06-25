@@ -1,0 +1,10 @@
+a=(1,2,6,7,5,4)
+print("original tuple a values: ",a)
+b=(9,8,2,1,6,7)
+print("origina tuple b values: ",b)
+a=sorted(a)
+print("sorted tuple a ",a)
+b=sorted(b)
+print("sorted tuple b ",b)
+c=a+b
+print("after merging the two sorted tuple ",c)
